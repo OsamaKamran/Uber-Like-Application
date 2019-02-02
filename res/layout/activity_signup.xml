@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@color/back">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="FullName"
+                android:textSize="24dp"
+                android:textColor="@android:color/holo_green_light"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="PhoneNumber"
+                android:textSize="24dp"
+                android:textColor="@android:color/holo_green_light"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number|phone" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="Email"
+                android:textSize="24dp"
+                android:textColor="@android:color/holo_green_light"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="Password"
+                android:textSize="24dp"
+                android:textColor="@android:color/holo_green_light"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textWebPassword" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="CNIC"
+                android:textSize="24dp"
+                android:textColor="@android:color/holo_green_light"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Dont use ( - ) "
+                android:inputType="number" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="Address"
+                android:textSize="24dp"
+                android:textColor="@android:color/holo_green_light"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine|textPostalAddress" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/back"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/holo_green_light"
+                android:text="SIGN UP"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+
+
